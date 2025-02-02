@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.navbar-nav .nav-item:last-child{
+    margin-left: auto;
+}
